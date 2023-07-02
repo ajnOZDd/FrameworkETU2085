@@ -1,6 +1,6 @@
 package ETU2085.framework;
 
-import ETU2085.framework.servlet.annotation.AnnotationUrl;
+import ETU2085.framework.servlet.AnnotationUrl;
 
 public class Emp {
     @AnnotationUrl(url = "/hello")
@@ -11,4 +11,5 @@ public class Emp {
     public void mandeTsara2(){
         System.out.println("ok2");
     }
+    
 }

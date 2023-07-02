@@ -1,5 +1,6 @@
 package ETU2085.framework;
 
+
 /**
  * Mapping
  */
