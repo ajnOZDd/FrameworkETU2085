@@ -5,11 +5,11 @@ package ETU2085.framework;
  */
 public class Mapping {
     protected String className ;
-   
     protected String Method ;
     
-    public Mapping (String className){
+    public Mapping (String className, String Method){
         setClassName(className);
+        setMethod(Method);
     }
     public String getMethod() {
         return Method;
