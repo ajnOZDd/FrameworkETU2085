@@ -1,7 +1,7 @@
 @echo off
 
 set JAR_NAME=mande
-set DESTINATION_DIR=D:\fianarana\xampp\tomcat\webapps\test-framework\WEB-INF\lib
+set DESTINATION_DIR=D:\fianarana\xampp\tomcat\webapps\frameworketu2085\test-framework\WEB-INF\lib
 
 echo Creating JAR file...
 jar cvf WEB-INF\lib\%JAR_NAME%.jar -C WEB-INF\classes .
